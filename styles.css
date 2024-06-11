@@ -1,7 +1,25 @@
-div{
+body{
+    background-color: white;
+}
+
+#cell{
     border: 1px solid black;
 }
 
-#gridContainer{
+*{
+    box-sizing: border-box;
+}
+
+#rowDiv{
     display: flex;
+}
+
+#gridContainer{
+    margin-inline: auto;
+}
+
+#buttonDiv{
+    margin-inline: auto;
+    margin-top: 30px;
+    width: fit-content;
 }
